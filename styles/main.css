@@ -1,10 +1,15 @@
 .header {
-  display: flex;         /* Enables Flexbox */
-  align-items: center;   /* Vertically centers the logo and text */
-  gap: 20px;             /* Adds space between the logo and text */
+  display: flex;         
+  align-items: center;   
+  gap: 15px;             /* Adjust the gap as needed */
 }
 
 .logo {
   height: 50px;          /* Set your desired logo height */
   width: auto;           /* Maintains aspect ratio */
+}
+
+.entryForm {
+    display: flex;
+    flex-direction: column;
 }
