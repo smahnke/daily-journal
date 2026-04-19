@@ -1,3 +1,5 @@
+import { getWeekdayGoalList } from "./areas.js";
+
 //get container element by id & */
 const mainContainer = document.querySelector("#container");
 
@@ -26,15 +28,16 @@ const applicationHTML = `
                 </datalist>
         </fieldset>
     </form>
-<article class="services">
 
-</article>
+<section id="toDo">
+    <article class="toDoList">
+        <h2>Areas</h2>
+            ${getWeekdayGoalList()}
+    </article>
+</section>
 
-<h2>Areas</h2>
-<section id="locationsAndGuests">
-        
-
-    <article class="guests">
+<section id="assessment">
+    <article class="completion">
         <h2>Completion Rates by Week</h2>
        
     </article>
